@@ -1,0 +1,6 @@
+C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem01\bin\Problem01.dll.config
+C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem01\bin\Problem01.dll
+C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem01\bin\Problem01.pdb
+C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem01\obj\Debug\Problem01.csprojResolveAssemblyReference.cache
+C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem01\obj\Debug\Problem01.dll
+C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem01\obj\Debug\Problem01.pdb
