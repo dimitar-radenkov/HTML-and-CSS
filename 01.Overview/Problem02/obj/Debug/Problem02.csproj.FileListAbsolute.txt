@@ -3,3 +3,9 @@ C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem02\bi
 C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem02\bin\Problem02.pdb
 C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem02\obj\Debug\Problem02.dll
 C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\01.Overview\Problem02\obj\Debug\Problem02.pdb
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem02\bin\Problem02.dll.config
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem02\bin\Problem02.dll
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem02\bin\Problem02.pdb
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem02\obj\Debug\Problem02.csprojResolveAssemblyReference.cache
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem02\obj\Debug\Problem02.dll
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem02\obj\Debug\Problem02.pdb
