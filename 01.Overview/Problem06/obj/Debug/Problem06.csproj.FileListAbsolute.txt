@@ -1,0 +1,6 @@
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem06\bin\Problem06.dll.config
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem06\bin\Problem06.dll
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem06\bin\Problem06.pdb
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem06\obj\Debug\Problem06.csprojResolveAssemblyReference.cache
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem06\obj\Debug\Problem06.dll
+C:\Users\Radenkov\Desktop\Git\HTML-and-CSS\01.Overview\Problem06\obj\Debug\Problem06.pdb
