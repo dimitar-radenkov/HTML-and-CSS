@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>   
+    <script type="text/javascript" language="JavaScript">
+
+    function addNumber(value) {
+        var text = document.getElementById("textResult").value;
+        text += value;
+        document.getElementById("textResult").value = text;
+    }
+
+    function IsPermittedToAddOperation(operation){
+        var text = document.getElementById("textResult").value;
+        if (text.length >= 1) {
+
+            var lastChar = text[text.length - 1];
+            if (lastChar == "+" ||
+                lastChar == "-" ||
+                lastChar == "*" ||
+                lastChar == "/") {
+
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    function addOperation(operation) {
+        var text = document.getElementById("textResult").value;
+            
+        if (text != "" && 
+            IsPermittedToAddOperation(operation) == true) {
+            text += operation;
+            document.getElementById("textResult").value = text;
+        }
+    }
+
+    function clearResult(){       
+        document.getElementById("textResult").value = "";
+    }
+
+    function getResult() {
+        var text = document.getElementById("textResult").value;
+        var result = eval(text);
+        document.getElementById("textResult").value = result;
+    }
+
+    </script>
+    <style>
+        tr {
+            height: 60px;
+        }
+
+        td {
+            width: 60px;
+        }
+
+        input, button {
+            width:99%;
+            height:100%
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input type="text" readonly="readonly"
+                       id="textResult" style="text-align:right; font-size:20px"/>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="addNumber(1)">1</button></td>
+            <td><button onclick="addNumber(2)">2</button></td>
+            <td><button onclick="addNumber(3)">3</button></td>
+            <td><button onclick="addOperation('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="addNumber(4)">4</button></td>
+            <td><button onclick="addNumber(5)">5</button></td>
+            <td><button onclick="addNumber(6)">6</button></td>
+            <td><button onclick="addOperation('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="addNumber(7)">7</button></td>
+            <td><button onclick="addNumber(8)">8</button></td>
+            <td><button onclick="addNumber(9)">9</button></td>
+            <td><button onclick="addOperation('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="clearResult()">C</button></td>
+            <td><button onclick="addNumber(0)">0</button></td>
+            <td><button onclick="getResult()">=</button></td>
+            <td><button onclick="addOperation('/')">/</button></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.NestedTables", "03.Neste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LifeInSoftUni", "05.LifeInSoftUni\05.LifeInSoftUni.csproj", "{139B72BC-82DF-45EE-A8E5-18ABD55E2150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TablesAndButtons", "06.TablesAndButtons\06.TablesAndButtons.csproj", "{EEC282A9-CD7C-48D1-8F7F-1F43AFCDCEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Calculator", "07.Calculator\07.Calculator.csproj", "{4B351858-D732-4D58-B7A4-BB2D4C17B0A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{139B72BC-82DF-45EE-A8E5-18ABD55E2150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{139B72BC-82DF-45EE-A8E5-18ABD55E2150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{139B72BC-82DF-45EE-A8E5-18ABD55E2150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC282A9-CD7C-48D1-8F7F-1F43AFCDCEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC282A9-CD7C-48D1-8F7F-1F43AFCDCEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC282A9-CD7C-48D1-8F7F-1F43AFCDCEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC282A9-CD7C-48D1-8F7F-1F43AFCDCEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B351858-D732-4D58-B7A4-BB2D4C17B0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B351858-D732-4D58-B7A4-BB2D4C17B0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B351858-D732-4D58-B7A4-BB2D4C17B0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B351858-D732-4D58-B7A4-BB2D4C17B0A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
