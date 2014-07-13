@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SimpleForm", "01.SimpleF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FlightOrder", "02.FlightOrder\02.FlightOrder.csproj", "{0278476E-77F7-46FF-B9FE-237BEB4121FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordPress", "03.WordPress\03.WordPress.csproj", "{000C5F09-877F-4DCF-84DA-003834242292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Fakebook", "04.Fakebook\04.Fakebook.csproj", "{512E91E2-ACC1-462B-A101-D4BE5A135C72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0278476E-77F7-46FF-B9FE-237BEB4121FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0278476E-77F7-46FF-B9FE-237BEB4121FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0278476E-77F7-46FF-B9FE-237BEB4121FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000C5F09-877F-4DCF-84DA-003834242292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000C5F09-877F-4DCF-84DA-003834242292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000C5F09-877F-4DCF-84DA-003834242292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000C5F09-877F-4DCF-84DA-003834242292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512E91E2-ACC1-462B-A101-D4BE5A135C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512E91E2-ACC1-462B-A101-D4BE5A135C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512E91E2-ACC1-462B-A101-D4BE5A135C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512E91E2-ACC1-462B-A101-D4BE5A135C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
