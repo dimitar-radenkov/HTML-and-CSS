@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        h4{
+            color:blue;
+        }
+
+        table{
+            background-color:deepskyblue;
+        }
+
+
+        #divRegister {
+            float: left
+        }
+
+        #divLogin {
+            background-color:deepskyblue;
+            overflow: hidden;
+        }
+    </style>
+    <title>Simple Form</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="2"><h4>Enter the system</h4></td>
+        </tr>
+        <tr>
+            <td colspan="2">It is neccessary to login in Your account to sign in for a course.</td>
+        </tr>
+        <tr>   
+            <td>
+                <form method="get">
+                    ARE YOU NEW? REGISTER<br />
+                    <input type="text" placeholder="User name" required="required"
+                           name="textUsername"><br />
+                    <input type="email" placeholder="Email" required="required" 
+                           name="textEmail"/> <br />
+                    <input type="password" placeholder="Password" required="required" 
+                           name="textPassword"/><br />
+                    <input type="password" placeholder="Confirm Password" required="required" 
+                           name="textConfirmPassword"/><br />
+                    <input type="submit" value="Register" style="float:right" />
+                </form>
+            </td>
+            <td>
+                <form method="get">
+                    ALREADY A STUDENT? LOGIN<br />
+                    <input type="text" placeholder="User name" required="required" /><br />                               
+                    <input type="password" placeholder="Password" required="required" /><br />
+                    <input type="checkbox" id="checkRememberMe"/>
+                    <label for="checkRememberMe" style="font-size:8px">Remeber me?</label>
+                    <input type="submit" value="Register" style="float:right" /><br />
+                    <a href="http://google.com" style="float:right">Forgot Password</a>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

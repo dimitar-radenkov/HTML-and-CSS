@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight Order</title>
+    <style>
+        table{
+            background-color:pink;
+            width:30%;
+        }
+
+        label{
+            font-size:10px;
+        }
+
+        .fullWidht{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Flight Order</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i>From</i></td>
+                    <td><i>To</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="fullWidht">
+                            <option>enter a city</option>
+                            <option>Sofia</option>
+                            <option>Plovidv</option>
+                            <option>Varna</option>
+                            <option>Ruse</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="fullWidht">
+                            <option>enter a city</option>
+                            <option>London</option>
+                            <option>Paris</option>
+                            <option>Berlin</option>
+                            <option>Tokio</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="checkPreferDirect" />
+                        <label for="checkPreferDirect">Prefer directs</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>Departure Date</i></td>
+                    <td><i>Time Interval</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date" name="dateDeparture" class="fullWidht" />
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><input type="time" name="timeDepartureStart" /></td>
+                                <td><input type="time" name="timeDepartureEnd" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>Return Date</i></td>
+                    <td><i>Time Interval</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date" name="dateReturn" class="fullWidht" />
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><input type="time" name="timeReturnStart" /></td>
+                                <td><input type="time" name="timeReturnEnd" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table class="fullWidht">
+                            <tr>
+                                <td><i>12+</i></td>
+                                <td><i>2-12</i></td>
+                                <td><i>0-2</i></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Choose class</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table class="fullWidht">
+                            <tr>
+                                <td><input type="number" min="0" max="12" /></td>
+                                <td><input type="number" min="2" max="12" /></td>
+                                <td><input type="number" min="0" max="2" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <select class="fullWidht">
+                            <option>Economy</option>
+                            <option>Bussiness</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Search"
+                               class="fullWidht" />
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
