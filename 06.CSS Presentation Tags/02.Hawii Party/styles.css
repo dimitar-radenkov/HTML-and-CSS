@@ -1,0 +1,40 @@
+﻿body{
+    padding:0;
+    margin:0;
+    background-image: radial-gradient(circle farthest-corner at left top, #FFFFFF 0%, #1C749D 100%);
+    background-repeat:repeat;
+}
+
+
+@font-face {
+    font-family: animatedFonts;
+    src: url(fonts/Animated.ttf);
+}
+
+.images{
+    width:925px;
+    height:600px;
+    display:block;
+    background:
+        url(images/AlexHula.png) no-repeat 487px 210px,
+        url(images/VladoKHula.png) no-repeat 668px 238px,         
+        url(images/NakovHula.png) no-repeat 409px 165px, 
+        url(images/TediHula.png) no-repeat 261px 369px, 
+        url(images/PetiaHula.png) no-repeat 176px 202px, 
+        url(images/VladoGHula.png) no-repeat 42px 227px, 
+        url(images/HawaiiBackground.png) no-repeat;        
+}
+
+header{
+    font-family:animatedFonts;
+    font-weight:bold;
+    font-size:50px;
+    color:gold;
+    text-align:right;
+
+    margin-right:25px;
+    padding-top:25px;
+}
+
+
+
