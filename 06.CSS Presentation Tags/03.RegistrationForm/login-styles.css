@@ -1,0 +1,78 @@
+﻿body {
+    background-image:url(images/formBackground.jpg);
+    background-repeat:repeat;
+}
+
+header{
+    margin-left:15px;
+    margin-top:10px;
+
+    font-size:25px;
+    font-family:'Trebuchet MS';
+    color:white;
+}
+
+div{
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+    border-radius:5px;
+
+    background-color:rgba(255, 255, 255, 0.40);
+
+    width:400px;
+    margin:5px;
+}
+
+div span, input, textarea{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+}
+
+
+div span{
+    display:inline-block;
+    margin-left:5px;
+    width:100px;
+}
+
+div > input, textarea{
+    width:200px;
+}
+
+textarea{
+    max-height:250px;
+    max-width:200px;
+}
+
+.address-style span{
+    vertical-align:top;
+}
+
+.radioButtons input{
+    width:auto;
+    align-content:center;
+    display:inline;
+    margin-left:20px;
+    margin-bottom:15px;
+}
+
+.radioButtons img{  
+    width:35px;
+    height:20px;
+    vertical-align:middle;
+}
+
+button{
+    background-color:rgb(4,21,47);
+    color:white;
+    border-color:rgb(4,21,47);
+    border-radius:20px;
+    width:120px;
+    height:40px;
+    margin-top:15px;
+    margin-left:150px;
+}
+
+

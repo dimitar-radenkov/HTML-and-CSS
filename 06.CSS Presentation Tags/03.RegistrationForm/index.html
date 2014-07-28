@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" language="JavaScript">
+        function setActive(elementId) {
+            var element = document.getElementById(elementId);
+            element.style.backgroundColor = "#B38F8F";
+        }
+
+        function setDeactive(elementId) {
+        var element = document.getElementById(elementId);
+        element.style.backgroundColor = "White";      
+        }
+    </script>
+
+    <link href="login-styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>Step 1: Your details</header>
+    <div>
+        <span>Name</span>
+        <input id="text-name" type="text" placeholder="First and last name"
+               onfocus="setActive('text-name')"
+               onblur="setDeactive('text-name')"/>
+    </div>
+    <div>
+        <span>Email</span>
+        <input id="text-email" type="email" placeholder="example@domain.com"
+               onfocus="setActive('text-email')"
+               onblur="setDeactive('text-email')" />
+    </div>
+    <div>
+        <span>Phone</span>
+        <input id="text-phone" type="tel" placeholder="e.g. +44750000000"
+               onfocus="setActive('text-phone')"
+               onblur="setDeactive('text-phone')" />
+    </div>
+
+    <header>Step 2: Delivery address</header>
+    <div class="address-style">
+        <span>Address</span>
+        <textarea id="text-address" rows="7"
+                  onfocus="setActive('text-address')"
+                  onblur="setDeactive('text-address')"></textarea>
+    </div>
+    <div>
+        <span>Post code</span>
+        <input id="text-postCode" type="text"
+               onfocus="setActive('text-postCode')"
+               onblur="setDeactive('text-postCode')" />
+    </div>
+    <div>
+        <span>Country</span>
+        <input id="text-country" type="search" autocomplete="on"
+               onfocus="setActive('text-country')"
+               onblur="setDeactive('text-country')" />
+    </div>
+
+    <header>Step 3: Card details</header>
+    <div class="radioButtons">
+        <span>Card type</span><br />
+        <input type="radio" value="Visa" name="card"/> 
+        <img src="images/visa.jpg"/> VISA
+        <input type="radio" value="AmEx" name="card" />
+        <img src="images/americanExpress.jpg" />AmEx
+        <input type="radio" value="Mastercard" name="card" />
+        <img src="images/masterCard.jpg" />Mastercard
+    </div>
+
+    <div>
+        <span>Card number</span>
+        <input id="text-cardNumber" type="text"
+               onfocus="setActive('text-cardNumber')"
+               onblur="setDeactive('text-cardNumber')" />
+    </div>
+
+    <div>
+        <span>Security code</span>
+        <input id="text-securityCode" type="text"
+               onfocus="setActive('text-securityCode')"
+               onblur="setDeactive('text-securityCode')" />
+    </div>
+
+    <div>
+        <span>Name on card</span>
+        <input id="text-cardName" type="text" placeholder="exact name as on the card"
+               onfocus="setActive('text-cardName')"
+               onblur="setDeactive('text-cardName')" />
+    </div>
+   
+    <button>BUY IT!</button>  
+</body>
+</html>
