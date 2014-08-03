@@ -29,6 +29,11 @@
     font-size:12px;
 }
 
+.buttons button:hover{
+    background-color:orange;
+    cursor:pointer;
+}
+
 .list{
     float:left; 
     padding-top:20px;
