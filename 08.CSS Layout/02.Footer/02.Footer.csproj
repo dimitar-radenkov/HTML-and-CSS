@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E9A8B847-626A-411E-83A8-B692DA6B82D1}</ProjectGuid>
+    <ProjectGuid>{9F1BBD49-9C99-4B97-BCBC-A1B190A2AA5A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_03.RegistrationForm</RootNamespace>
-    <AssemblyName>03.RegistrationForm</AssemblyName>
+    <RootNamespace>_02.Footer</RootNamespace>
+    <AssemblyName>02.Footer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,12 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\americanExpress.jpg" />
-    <Content Include="images\formBackground.jpg" />
-    <Content Include="images\masterCard.jpg" />
-    <Content Include="images\visa.jpg" />
+    <Content Include="footerStyles.css" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\twitter.png" />
     <Content Include="index.html" />
-    <Content Include="login-styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,9 +87,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>59419</DevelopmentServerPort>
+          <DevelopmentServerPort>53192</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:59420/</IISUrl>
+          <IISUrl>http://localhost:53192/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

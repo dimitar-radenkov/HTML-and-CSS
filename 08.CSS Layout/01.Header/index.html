@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" >
+        function show(headerId, contentId) {
+            var header = document.getElementById(headerId);
+            var content = document.getElementById(contentId);
+            
+            if (header.style.background == "orange") {
+                header.style.cssText = "span:hover{background-color:rgb(35, 68, 101)}";
+                content.style.display = "none";
+            }
+            else {
+                header.style.background = "orange";
+                content.style.display = "block";
+            }           
+        }
+        
+    </script>    
+    <link href="headerStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>   
+        <img class="logo" src="images/logo.png" />
+        <div class="navBar">
+            <div class="searchBar">
+                <span>0</span>
+                <img src="images/bell.png" width="20" />
+                <span>USER</span>
+                <input type="text" placeholder="Search...">
+                <button type="submit">
+                    <img src="images/search.png" />
+                </button>
+            </div>
+            <br />
+            <div class="menuBar">
+                <ul>
+                    <li><a href="http://www.google.com">NEWS</a></li>
+                    <li class="dropdown" 
+                        onclick="show('dropdownHeaderAboutUniversity', 'dropdownContentAboutUniversity')">
+                        <span id="dropdownHeaderAboutUniversity">ABOUT THE UNIVERSITY &#9660</span>
+                        <table id="dropdownContentAboutUniversity">
+                            <tr><td>option 1</td></tr>
+                            <tr><td>option 3</td></tr>
+                            <tr><td>option 2</td></tr>
+                            <tr><td>ABOUT THE UNIVERSITY option 4</td></tr>
+                        </table>
+                    </li>
+                    <li class="dropdown" 
+                        onclick="show('dropdownHeaderTrainingContent', 'dropdownContentTrainingContent')">
+                        <span id="dropdownHeaderTrainingContent">TRAINING COURSES &#9660</span>
+                        <table id="dropdownContentTrainingContent">
+                            <tr><td>option 1</td></tr>
+                            <tr><td>option 3</td></tr>
+                            <tr><td>option 2</td></tr>
+                            <tr><td>TRAINING COURSES option 4</td></tr>
+                        </table>
+                    </li>
+                    <li><a href="http://www.google.com"> FOR COMPANIES</a></li>
+                    <li><a href="http://www.google.com"> FORUM</a></li>
+                    <li><a href="http://www.google.com"> CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

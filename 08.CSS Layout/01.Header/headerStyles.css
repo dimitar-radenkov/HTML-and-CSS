@@ -1,0 +1,147 @@
+﻿body {
+    margin:0;
+}
+
+header{  
+    background-color:rgb(35, 68, 101);
+    width:100%;
+    display:block;
+    height:120px;
+}
+
+header input:focus, button:focus{
+    outline-width:0px;
+}
+
+header button:hover{
+    background-color:lightblue;
+}
+
+header .logo{
+    display:inline-block;
+    margin-top:30px;
+    margin-left:40px;
+}
+
+.navBar{
+    float:right;
+    display:inline-block;
+}
+
+.searchBar{
+    margin-right:20px;
+    margin-top:20px;
+    display:inline-block;
+    border-color:gray;
+    float:right;
+}
+
+.searchBar > span{
+    color:white;
+    margin-left:20px;
+}
+
+.searchBar > img{
+    vertical-align:middle;
+}
+
+.searchBar > input{
+    display:inline;   
+    margin-left:5px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-collapse:collapse;
+    height:32px;
+    width:200px;
+    border:0px;
+}
+
+.searchBar > button{
+    display:inline;
+    position:relative;
+    margin-left:-4px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-collapse:collapse;
+    vertical-align:middle;
+    border:0px;
+    width:40px;
+    height:34px;
+}
+
+.searchBar > button > img {
+    vertical-align:middle;
+}
+
+.menuBar{
+    margin-top:1px;
+    margin-right:10px;
+    display:inline-block;
+    float:right;
+}
+
+.menuBar > ul, li{
+    display:inline-block;
+    list-style:none;
+}
+
+.menuBar li{
+    margin-left:5px;
+    margin-right:5px;     
+}
+
+.menuBar a:hover{
+    background-color:deepskyblue;
+}
+
+.menuBar span:hover{
+    background-color:deepskyblue;
+}
+
+.menuBar span:checked{
+    background-color:orange;
+}
+
+.menuBar li > a {
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+.menuBar li > span {  
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+.dropdown:hover{
+    cursor:pointer;
+}
+
+.dropdown{
+    color:white;
+}
+
+.dropdown table{
+    display:none;
+    position:fixed;
+    margin-top:10px;
+}
+
+.dropdown table tr td{   
+    background-color:rgb(35, 68, 101);
+    border-color:black;
+    border-width:1px;
+}
+
+.dropdown table td:hover{
+    background-color:orange;
+}
+
+.dropdown td{
+    padding:10px;
+    font-size:20px;
+}
+
+

@@ -1,0 +1,91 @@
+﻿footer {
+    display:inline-block;
+    background-color:rgb(35, 68, 101);
+    width:100%;
+    padding-top:20px;
+    padding-left:80px;
+    padding-bottom:30px;
+}
+
+.buttons{
+    display:inline-block;
+    float:left;
+    padding-top:20px;
+}
+
+.buttons button{
+    opacity:1;
+    background-color:rgb(35, 68, 101);
+    border-color:orange;
+    border-width:3px;
+    border-style:solid;
+    color:white;
+    width:180px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    font-size:12px;
+}
+
+.list{
+    float:left; 
+    padding-top:20px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top:-5px;
+    color:white;
+    max-width:300px;
+}
+
+.list ul{
+    margin-top:0;
+    list-style:none;
+}
+
+.list ul li span{
+    display:inline-block;
+    color:orange;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:10px;
+    text-decoration:none;
+}
+
+.list ul li a{
+    font-size:12px;
+    text-decoration:none;
+    padding-bottom:5px;
+    color:white;
+}
+
+.list ul li{
+    font-size:12px;
+    text-decoration:none;
+    padding-bottom:5px;
+    color:white;
+}
+
+.list .imageWrapper{
+    margin-top:10px;
+}
+
+.list .imageWrapper img:hover{
+    cursor:pointer
+}
+
+.list .imageWrapper img{
+    margin-right:10px;
+    border-width:1px;
+    border-color:grey;
+    border-style:solid;
+}
+
+.facebook img:hover{
+    cursor:pointer;
+}
+
+.facebook img{
+    margin-left:30px;
+}
