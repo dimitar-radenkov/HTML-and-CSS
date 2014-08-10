@@ -1,0 +1,161 @@
+﻿body {
+  width:98%;
+  background-color:lightblue;
+}
+
+#wrapper{
+    width:70%;
+    margin:0 auto;
+}
+
+#wrapper > header > h1 > a{   
+    text-decoration:none;
+    color:white;
+}
+
+#wrapper > header > nav{
+    border-bottom:1px solid black;
+    margin:0,auto;
+}
+
+#wrapper > header > nav > ul , li{
+    display:inline-block;
+    list-style: none;
+}
+
+#wrapper > header > nav > ul > li > a{
+    padding:10px;
+    text-decoration:none;
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+}
+
+#wrapper > section{
+    float:left;
+    width:70%;
+}
+
+#wrapper article{
+    background-color:lightgray;
+    border:1px solid black;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;  
+}
+
+.news{
+    width:27%;
+    float:left;
+    margin-top:10px;    
+    margin-left:10px;
+    background-color:lightgray;
+    border:1px solid black;
+} 
+
+.news > div > ul, li{
+    padding:0;
+    list-style:none;
+}
+
+.news > div > ul > li > a{
+    color:black;
+    text-decoration:none;
+}
+
+.block{  
+    display:block;
+    padding:10px;
+}
+
+footer{
+    clear:both;
+    border:1px solid black;
+    background-color:lightgray;  
+    width:97%;
+}
+
+footer > h2{
+    text-align:center;
+    margin-bottom:2px;
+}
+
+@media screen and (max-width: 960px) {
+    body{
+        background-color:red;
+    }
+
+    #wrapper{
+        width:100%;
+        margin-top:10px;        
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body{
+        background-color:yellow;
+    }
+
+    #wrapper > section{
+        float:left;
+        width:98%;
+    }
+
+    .news{
+        width:98%;
+        margin-top:0px;
+        margin-left:0px;
+        margin-bottom:10px;
+        display:block;
+    }
+
+    .news > div > ul, li{
+        padding:0;
+        list-style:none;  
+        display:inline-flex;            
+    }
+
+    .block{
+        text-align:center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    body{
+        background-color:green;
+    }
+
+    #wrapper{
+        margin-left:5px;
+        margin-right:5px;
+        width:95%;
+    }
+
+    #wrapper > header > a{
+        display:block;
+        list-style: none;
+    }
+
+    #wrapper > header > nav > ul{
+        display:block;
+        list-style: none;
+    }
+
+    #wrapper > header > nav > ul > li{
+        display:block;
+        text-align:center;
+    }
+
+    #wrapper > header > nav > ul > li > a{
+        display:block;
+        width:80%;
+        margin:0;
+    }
+
+    .news > div > ul, li {
+        display:inline-block;
+    }
+
+
+}
